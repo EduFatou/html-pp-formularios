@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Home</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="script.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>club de viejóvenes</h1>
+    </header>
+    <main>
+      <form>
+        <fieldset id="datos">
+          <h2>datos personales</h2>
+          <label for="nombre">nombre:</label><br>
+          <input type="text" name="nombre" id="nombre" autofocus placeholder="Pon tu nombre" required><br>
+          <label>apellidos:</label><br>
+          <input type="text"><br>
+          <label>edad:</label><br>
+          <input type="number"><br>
+          <label>soy viejóven</label><br>
+          <input type="checkbox"><br>
+          <label>hombre:</label><br>
+          <input type="radio"><br>
+          <label>mujer:</label><br>
+          <input type="radio"><br>
+          <label>cuentame:</label><br>
+          <textarea>hola</textarea><br>
+        </fieldset><br>
+        <fieldset id="contacto">
+          <h2>contacto</h2>
+          <label>email:</label><br>
+          <input type="email"><br>
+          <label>teléfono:</label><br>
+          <input type="tel" name="tel" id="tel" required pattern="[6-9][0-9]{8}"><br>
+        </fieldset>
+        <fieldset id="botones">
+          <input type="submit" value="Enviar">
+          <input type="reset" name="borrar" id="borrar">
+          
+      </fieldset>
+      </form>
+    </main>
+
+   
+  </body>
+</html>
